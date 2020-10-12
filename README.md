@@ -52,6 +52,7 @@ The system allows registered users to advertise their products or services. Publ
 
 ###### Actors:
 **Registered user**: A user who has created an account in the website, and is logged in to the system using their username and password.
+
 **Public user**: All users whether they are registered users or unregistered users .
 
 ###### Requirements
