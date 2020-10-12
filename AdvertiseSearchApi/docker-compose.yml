@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  advertisesearchapi:
+    image: ${DOCKER_REGISTRY-}advertisesearchapi
+    build:
+      context: .
+      dockerfile: AdvertiseSearchApi/Dockerfile
