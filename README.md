@@ -102,5 +102,7 @@ The infrastructure logs are placed in cloud watch. AWS cloud trail is used for l
 
 ###### AWS deployment options:
 **Cloudformation** — Template for creating everthing like ec2 instances, load balancer etc. Implements rolling deployment
-**CodeDeploy** - Takes care of deploying code in already created EC2 instance.
+
+**CodeDeploy** - Takes care of deploying code in already created EC2 instance
+
 **Docker and AWS ECS (Used in project)**
