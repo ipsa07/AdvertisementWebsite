@@ -17,7 +17,7 @@ The system allows registered users to advertise their products or services. Publ
 
   * Dynamo DB : Storing Advertisement details
 
-  * Lambda : Gets triggered as part of SNS. Writes advertisements to elastic search
+  * Lambda : Gets triggered as part of SNS. Writes advertisements to elastic search.
 
   * Cloudwatch : Monitoring and logs
 
@@ -29,9 +29,9 @@ The system allows registered users to advertise their products or services. Publ
 
   * ECS : Orchestration
 
-  * SNS : Advertisement microservice notifies lambda to write adv details to elastic search
+  * SNS : Advertisement microservice notifies lambda to write adv details to elastic search. Building Event Driven Microservices with AWS SNS.
 
-  * API Gateway : Acts as a reverse proxy to accept all application programming interface (API) calls.
+  * API Gateway : Acts as a reverse proxy to accept all application programming interface (API) calls. Securing APIs with API Gateway and with token auth.
 
   * EC2
 
@@ -48,7 +48,7 @@ The system allows registered users to advertise their products or services. Publ
 
 * Swagger UI : Dynamic doumentation and web client
 
-* Docker
+* Docker : CI/CD for Microservices
 
 ###### Actors:
 **Registered user**: A user who has created an account in the website, and is logged in to the system using their username and password.
@@ -95,6 +95,8 @@ Monitoring and health check is done by CloudWatch.
 **CQRS(Command and Query responsibility segregation)— Microservices handling queries should be separated from Microservices handling commands**
 
 **Service Discovery Pattern**
+
+**Event Driven Architecture**
 
 ###### Logging:
 The infrastructure logs are placed in cloud watch. AWS cloud trail is used for logging security,AWS API logs.I have used Kibana to see the dumped logs in elastic search.
